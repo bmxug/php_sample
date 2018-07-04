@@ -1,0 +1,10 @@
+applications:
+  - path: .
+    buildpack: https://github.com/cloudfoundry/php-buildpack.git
+    name: bmxug_20180704
+    environment_json: {}
+    memory: 128M
+    instances: 1
+    disk_quota: 1024M
+    services: []
+
